@@ -5,16 +5,18 @@ import Logo from "../../components/images/Logo";
 import Landing from "../../components/images/Landing";
 import Landing2 from "../../components/images/Landing2";
 import Landing3 from "../../components/images/Landing3";
-import {NavigationInjectedProps} from "react-navigation";
+import { useNavigation } from '@react-navigation/native';
 
-interface IProps extends NavigationInjectedProps {
+interface IProps {
 }
 
 
-const Welcome: React.FC<IProps> = ({navigation}) => {
+const Welcome: React.FC<IProps> = () => {
 
 
   const [selectedIndex, setSelectedIndex] = useState(0);
+
+  const navigation  = useNavigation();
   return (
 
     <View>

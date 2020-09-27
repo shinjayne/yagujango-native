@@ -3,7 +3,7 @@
     "name": "yagujango",
     "slug": "yagujango-ios",
     "privacy": "public",
-    "sdkVersion": "35.0.0",
+    "sdkVersion": "39.0.0",
     "platforms": [
       "ios",
       "android",
